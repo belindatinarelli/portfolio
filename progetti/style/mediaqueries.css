@@ -1,5 +1,9 @@
 /* MEDIA QUERIES */
-
+@media all and (max-width: 768px){
+    .text-desktop{
+        display: none;
+    }
+}
 /* Tablet in modalità orizzontale */
 @media all and (min-width: 737px) and (max-width: 1366px) { 
     .herobanner{
@@ -22,6 +26,7 @@
     }
 
     .herobanner{
+        padding-bottom: 0px;
         background-attachment: unset;
     }
 
@@ -43,12 +48,20 @@
         font-size: 16px!important;
     }
 
+    .text-desktop{
+        display: none;
+    }
+
     #progetti{
         margin-top: 50px;
         margin-bottom: 0px;
     }
 
     #footer{
+        margin-top: 0px;
+    }
+
+    #progetti .img{
         margin-top: 0px;
     }
 
