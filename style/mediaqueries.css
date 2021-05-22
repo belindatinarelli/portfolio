@@ -1,0 +1,165 @@
+/* MEDIA QUERIES */
+
+/* Tablet in modalità orizzontale */
+@media all and (max-width: 990px){
+    #contatti h2{
+        text-align: center !important;
+    }
+}
+
+
+@media all and (min-width: 737px) and (max-width: 1366px) { 
+
+    .navbar-bt{
+        width: 80%;;
+        z-index: 99999;
+        position: fixed !important;
+    }
+
+    .back{
+        margin: 0px !important;
+        background-image: url("../src/img/back-cloud1.svg");
+        background-size: cover;
+    }
+
+    .hero-text{
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .herobanner{
+        background-image: none;
+    }
+
+    #icone{
+        background-image: none;
+        background: #6776f380;
+    }
+
+    #contatti form{
+        margin-top: 70px;
+    }
+
+    #contatti{
+        background-image: none;
+        background: #6776f380;
+    }
+
+    #contatti h2{
+        font-size: 50px!important;
+    }
+
+}
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 736px) {
+    h1{
+        font-size: 70px!important;
+    }
+
+    h2, #contatti h2{
+        font-size: 40px !important;
+    }
+
+    h3{
+        font-size: 20px !important;
+    }
+
+    h4, .icone h4{
+        margin-top: 10px !important;
+        margin-bottom: 50px !important;
+        font-size: 18px !important;
+    }
+
+    p{
+        font-size: 16px!important;
+    }
+
+    label{
+        font-size: 12px !important;
+    }
+
+    .back{
+        background-image: url("../src/img/back-cloud1.svg");
+        background-size: cover;
+    }
+
+    .navbar-bt{
+        width: 80%;
+        z-index: 99999;
+        position: fixed !important;
+    }
+
+    .navbar-bt img{
+        height: 30px!important;
+    }
+
+    .herobanner{
+        background-image: none;
+        height: 600px !important;
+    }
+
+    .hero-text{
+        margin-top: 230px;
+        text-align: center;
+    }
+
+    .scroll{
+        margin-top: 70px;
+    }
+
+    #icone{
+        padding-top: 70px!important;
+        padding-bottom: 30px !important;
+        background-image: none;
+        background: #6776f380;
+    }
+
+    .icon1{
+        height: 120px;
+        width: 120px;
+    }
+
+    .icon1 img{
+        height: 50px;
+    }
+
+    #chisono{
+        margin-top: 70px!important;
+        margin-bottom: 70px!important;
+    }
+
+    #chisono img{
+        height: 200px;
+    }
+
+    #chisono h4{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    form{
+        margin-top: 50px;
+    }
+
+    .secondary-button, .primary-button{
+        font-size: 16px;
+        padding: 15px;
+        width: 200px;
+    }
+
+    button:hover{
+        transform: rotate(0deg);
+    }
+
+    #contatti{
+        background-image: none;
+        background: #6776f380;
+    }
+
+    #contatti h2{
+        text-align: center;
+    }
+
+
+ } 

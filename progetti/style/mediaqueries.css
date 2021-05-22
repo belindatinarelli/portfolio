@@ -1,0 +1,55 @@
+/* MEDIA QUERIES */
+
+/* Tablet in modalità orizzontale */
+@media all and (min-width: 737px) and (max-width: 1366px) { 
+    .herobanner{
+        background-attachment: unset;
+    }
+
+    .progetti-text{
+        margin-top: 30px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+}
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 736px) {
+    .arrow-back{
+        margin-top: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .herobanner{
+        background-attachment: unset;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px!important;
+        margin-top: 0px!important;
+    }
+
+    h2, #contatti h2{
+        margin-top: 10px!important;
+        font-size: 40px !important;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 10px!important;
+        margin-bottom: 50px !important;
+        font-size: 16px!important;
+    }
+
+    #progetti{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    #footer{
+        margin-top: 0px;
+    }
+
+ } 

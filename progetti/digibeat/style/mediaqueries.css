@@ -1,0 +1,66 @@
+/* MEDIA QUERIES */
+
+
+/* Tablet in modalità orizzontale */
+@media all and (min-width: 737px) and (max-width: 1366px) { 
+    .fixed-text{
+        position: unset;
+        width: 80%;
+        margin-top: 130px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+
+    .project h2{
+        text-shadow: none;
+    }
+
+}
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 736px) {
+    .arrow-back{
+        margin-top: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .fixed-text{
+        position: unset;
+        margin-top: 100px;
+        width: 100%;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px!important;
+    }
+
+    h1{
+        font-size: 70px!important;
+    }
+
+    h2{
+        font-size: 40px !important;
+    }
+
+    h3{
+        font-size: 20px !important;
+    }
+
+    .secondary-button, .primary-button{
+        font-size: 16px;
+        padding: 15px;
+        width: 200px;
+    }
+
+    .linketto{
+        text-align: center;
+    }
+
+    button:hover{
+        transform: rotate(0deg);
+    }
+
+ } 
