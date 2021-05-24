@@ -3,6 +3,10 @@
     .text-desktop{
         display: none;
     }
+
+    .tooltip{
+        display: none!important;
+    }
 }
 /* Tablet in modalità orizzontale */
 @media all and (min-width: 737px) and (max-width: 1366px) { 
@@ -20,6 +24,10 @@
 
 /* Smartphone o piccoli Tablet */
 @media all and (max-width: 736px) {
+    .tooltip{
+        display: none!important;
+    }
+    
     .arrow-back{
         margin-top: 15px !important;
         margin-left: 0px !important;

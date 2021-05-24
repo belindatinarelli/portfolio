@@ -9,6 +9,9 @@
 
 
 @media all and (min-width: 737px) and (max-width: 1366px) { 
+    .tooltip{
+        display: none!important;
+    }
 
     .navbar-bt{
         width: 80%;;
@@ -53,6 +56,10 @@
 
 /* Smartphone o piccoli Tablet */
 @media all and (max-width: 736px) {
+    .tooltip{
+        display: none!important;
+    }
+    
     h1{
         font-size: 70px!important;
     }
