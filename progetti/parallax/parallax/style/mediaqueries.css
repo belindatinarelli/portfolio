@@ -1,0 +1,48 @@
+/* MEDIA QUERIES */
+
+
+/* Tablet in modalità orizzontale */
+@media all and (min-width: 737px) and (max-width: 1366px) { 
+    
+
+}
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 736px) {
+    h1{
+        font-size: 90px !important;
+        text-align: left !important;
+    }
+    
+    h2{
+        font-size: 25px !important;
+        text-align: left !important;
+    }
+
+    div .line{
+        display: none;
+    }
+
+    h3{
+        font-size: 50px !important;
+        text-align: center !important;
+
+    }
+
+    h4{
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+
+    .button{
+        border: 1px solid #948bfa;
+        margin: 0px 20px 20px 20px;
+        border-radius: 20px;
+        background: #948bfa2e;
+    }
+
+    p{
+        text-align: center !important; 
+    }
+
+ } 

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #aaa2ff;
+}
+
+*::selection{
+    background-color: #bf03a7;
+}
+
+body{
+    background-color: #222028 !important;
+}
+
+div, a, button, html{
+    cursor: url("../file/img/"), auto;
+    cursor: url('../file/img/arrow.svg'), pointer !important;
+}
+
+.container-fluid, .row{
+    margin: 0 !important;
+    padding: 0 !important; 
+}
+
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container_ciao{
+    margin: 0;
+    padding: 10rem 0rem 0rem 0rem;
+    height: 100%;
+    
+}
+
+.container_ciao .col-sm-12 img{
+    height: 5rem;
+    width: auto;
+    position: relative;
+}
+
+.ciao mark{
+    color: #aaa2ff;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    text-shadow: 6px 6px #948bfa;
+}
+
+.ciao h1{
+    font-weight: 700;
+    font-size: 140px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    text-shadow: 6px 6px #948bfa;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    background: none;
+    text-shadow: 1.5px 1.5px #6a09e2;
+}
+
+.txt-button mark{
+    color: #aaa2ff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00000000;
+}
+
+.txt-button h3 {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div.line{
+    height: 350px;
+    width: 1px !important;
+    background-color: #aaa2ff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.header-menu {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.button{
+    color: #848484;
+    padding: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+.button:hover{
+    border: none;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+a{
+    font-style: normal;
+    color: #848484 !important;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #848484;
+}
+
+.hero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#me{
+    z-index: 99999999;
+
+}
+
+.footer-menu{
+    margin-top: 5rem;
+}
+
+#text{
+    position: relative;
+    color: #ffffff;
+    font-size: 10rem;
+    z-index: 1;
+}

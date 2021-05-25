@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy" transform="translate(-2.500000, -3.000000)" fill="#AAA2FF">
+            <path d="M6.41421356,5 L32.1421356,30.7279221 C32.5326599,31.1184464 32.5326599,31.7516113 32.1421356,32.1421356 C31.7516113,32.5326599 31.1184464,32.5326599 30.7279221,32.1421356 L5,6.41421356 L5,32 C5,32.5522847 4.55228475,33 4,33 C3.44771525,33 3,32.5522847 3,32 L3,5 C3,3.8954305 3.8954305,3 5,3 L5,3.29289322 L5,3 L31,3 C31.5522847,3 32,3.44771525 32,4 C32,4.55228475 31.5522847,5 31,5 L6.41421356,5 Z" id="Rectangle-2"></path>
+        </g>
+    </g>
+</svg>

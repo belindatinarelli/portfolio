@@ -259,6 +259,10 @@ p{
     background-image: url("../src/img/reset-cover.png");
 }
 
+#progetti .img6{
+    background-image: url("../src/img/parallax-cover.png");
+}
+
 #progetti .img{
     margin-top: 70px;
     box-shadow: 10px 10px 20px 0 rgba(70, 83, 199, 0.488);
