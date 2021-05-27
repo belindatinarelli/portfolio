@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Belinda Tinarelli</title>
+    <title>Belinda Tinarelli//Parallx</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
     <link rel='shortcut icon' type='image/x-icon' href='file/img/favicon.png' />
@@ -30,66 +30,80 @@
 
 <body>
 
-    <div class="hero">
-        <img src="file/img/bg.png" id="bg" alt="">
-        <img src="file/img/planets.png" id="planets" alt="">
-        <img src="file/img/stars.png" id="stars" alt="">
-
-        <div class="container_ciao text-center">
-            <div id="text" class="col-sm-12">
-                <div class="ciao">
-                    <h1>Ciao amici<mark>.</mark></h1>
+    <div class="container rotate">
+        <div class="row align-items-center d-flex justify-content-center">
+            <div class="col align-items-center d-flex justify-content-center">
+                <img src="file/img/rotate.png" alt="">
+            </div>
+            <div class="row align-items-center d-flex justify-content-center">
+                <div class="col align-items-center d-flex justify-content-center">
+                    <h1>Ruota il dispositivo!</h1>
                 </div>
-                <h2>BELINDA TINARELLI \\ INTERACTION DESIGNER</h2>
             </div>
         </div>
-
-        <img src="file/img/me.png" id="me" alt="">
     </div>
 
-    <div class="footer-menu">
+    <div class="corpo">
 
-        <div class="line"></div>
+        <div class="hero">
 
-        <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm text-left">
-                <p>Ciao, conosciamoci meglio,
-                    <br> lavoriamo insime ad un progetto.</p>
+            <img src="file/img/bg.png" id="bg" alt="">
+            <img src="file/img/planets.png" id="planets" alt="">
+            <img src="file/img/stars.png" id="stars" alt="">
+
+            <div class="container-fluid container_ciao text-center">
+                <div class="row">
+                    <div id="text" class="col-12">
+                        <div class="ciao">
+                            <h1>Ciao amici<mark>.</mark></h1>
+                        </div>
+                        <h2 class="desktop">BELINDA TINARELLI \\ INTERACTION DESIGNER</h2>
+                        <h2 class="mobile">Si consiglia la visone da Desktop per godere appieno del risulatato.</h2>
+                    </div>
+                </div>
+
+                <img src="file/img/me.png" id="me" alt="">
             </div>
         </div>
 
-        <div class="row">
+        <div class="footer-menu container-fluid">
 
-            <div class="col-sm button text-sm-right">
-                <a target="_balnk" href="../../../index.html">
-                    <div class="txt-button">
-                        <h3>Portfolio<mark>.</mark></h3>
-                    </div>
-                    <h4>Visita il mio sito web principale.</h4>
-                </a>
+            <div class="line"></div>
+
+            <div class="text-footer row">
+                    <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <p>Ciao, conosciamoci meglio,
+                        <br> lavoriamo insime ad un progetto.</p>
+                </div>
             </div>
 
-            <div class="col-sm button text-sm-left">
-                <a target="_balnk" href="../../index.html">
-                    <div class="txt-button">
-                        <h3>Progetti<span>.</span></h3>
-                    </div>
-                    <h4>Scopri ditrettamente la sezione progetti del mio portfolio.</h4>
-                </a>
-            </div>
+            <div class="row">
 
+                <div class="col-sm-6 button text-right">
+                    <a target="_balnk" href="../../../index.html">
+                        <div class="txt-button">
+                            <h3>Portfolio<mark>.</mark></h3>
+                        </div>
+                        <h4>Visita il mio sito web principale.</h4>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 button text-left">
+                    <a target="_balnk" href="../../index.html">
+                        <div class="txt-button">
+                            <h3>Progetti<mark>.</mark></h3>
+                        </div>
+                        <h4>Scopri direttamente la sezione progetti del mio portfolio.</h4>
+                    </a>
+                </div>
+
+            </div>
         </div>
+
     </div>
 
     <script type="text/javascript">
-
-        // $(window).scroll(function () {
-        //     var scroll = $(window).scrollTop();
-        //     $('#planets').css({
-        //         width: (100 + scroll / -50) + '%'
-        //     })
-        // })
 
         let bg = document.getElementById("bg");
         let planets = document.getElementById("planets");
@@ -101,15 +115,8 @@
 
         window.addEventListener('scroll', function () {
             var value = window.scrollY;
-
-            // bg.style.top = value * 0.5 + 'px';
-            // if(value >= 20){
-            // planets.style.height = value * 5 + 'px';
-            // }
             planets.style.width = (100 + value / -30) + '%';
-            // planets.style.left = -value * 0.15 + 'px';
             stars.style.left = value * 0.1 + 'px';
-            // clouds.style.top = -value * 0.3 + 'px';
             me.style.top = value * 0.01 + 'px';
             text.style.top = value * 1 + 'px';
 

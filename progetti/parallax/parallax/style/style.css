@@ -18,20 +18,28 @@ div, a, button, html{
     cursor: url('../file/img/arrow.svg'), pointer !important;
 }
 
-.container-fluid, .row{
+/* .container-fluid, .row{
     margin: 0 !important;
     padding: 0 !important; 
+} */
+
+.rotate{
+    display: none;
+}
+
+.corpo{
+    display: block;
 }
 
 .hero{
+    margin-bottom: 100px;
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .container_ciao{
@@ -55,6 +63,7 @@ div, a, button, html{
 }
 
 .ciao h1{
+    margin-top: 200px;
     font-weight: 700;
     font-size: 140px;
     color: white;
@@ -68,6 +77,14 @@ h2 {
     font-weight: 300;
     background: none;
     text-shadow: 1.5px 1.5px #6a09e2;
+}
+
+.desktop{
+    visibility: visible;
+}
+
+.mobile{
+    visibility: hidden;
 }
 
 .txt-button mark{
@@ -130,7 +147,6 @@ a:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     object-fit: cover;
     pointer-events: none;
 }
@@ -142,6 +158,10 @@ a:hover{
 
 .footer-menu{
     margin-top: 5rem;
+}
+
+.text-footer p{
+    align-items: flex-end;
 }
 
 #text{
