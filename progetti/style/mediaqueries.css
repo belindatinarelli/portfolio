@@ -1,21 +1,9 @@
 /* MEDIA QUERIES */
 
 /* Tablet in modalità orizzontale */
-@media all and (min-width: 769px) and (max-width: 1366px) { 
+@media all and (min-width: 769px) and (max-width: 1365px) { 
     .tooltip{
         display: none!important;
-    }
-
-    p{
-        font-size: 16px !important;
-    }
-
-    h1{
-        font-size: 50px !important;
-    }
-
-    h2{
-        font-size: 40px !important;
     }
 
     .herobanner{
