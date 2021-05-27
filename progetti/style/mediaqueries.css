@@ -1,15 +1,23 @@
 /* MEDIA QUERIES */
-@media all and (max-width: 768px){
-    .text-desktop{
-        display: none;
-    }
 
+/* Tablet in modalità orizzontale */
+@media all and (min-width: 769px) and (max-width: 1366px) { 
     .tooltip{
         display: none!important;
     }
-}
-/* Tablet in modalità orizzontale */
-@media all and (min-width: 737px) and (max-width: 1366px) { 
+
+    p{
+        font-size: 16px !important;
+    }
+
+    h1{
+        font-size: 50px !important;
+    }
+
+    h2{
+        font-size: 40px !important;
+    }
+
     .herobanner{
         background-attachment: unset;
     }
@@ -20,10 +28,23 @@
         margin-right: 7%;
     }
 
+    #progetti .img{
+        height: 400px !important;
+    }
+
 }
 
 /* Smartphone o piccoli Tablet */
-@media all and (max-width: 736px) {
+@media all and (max-width: 768px) {
+
+    .text-desktop{
+        display: none;
+    }
+
+    .tooltip{
+        display: none!important;
+    }
+
     .tooltip{
         display: none!important;
     }
