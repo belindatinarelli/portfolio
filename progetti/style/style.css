@@ -225,7 +225,7 @@ p{
 }
 
 #progetti a:hover{
-    color: #74EBD5;
+    color: #74EBD5 !important;
     transition-duration: 0.5s;
 }
 
